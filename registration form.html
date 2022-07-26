@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style6.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Raleway&display=swap');
+        </style>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+        </style>
+</head>
+<body>
+    <div class="regist">
+        <h1>Registration Form</h1><br>
+        <form action="get">
+            <label for="sname">Student Name: *</label><br>
+            <input type="text" name="sfname" id="sfname" placeholder="First Name" required>
+            <input type="text" name="slname" id="slname" placeholder="Last Name"><br><br>
+
+
+            <label for="fname">Father Name: *</label><br>
+            <input type="text" name="ffname" id="ffname" placeholder="First Name" required>
+            <input type="text" name="flname" id="flname" placeholder="Last Name"><br><br>
+
+
+            <label for="mname">Mother Name: *</label><br>
+            <input type="text" name="mfname" id="mfname" placeholder="First Name" required>
+            <input type="text" name="mlname" id="mlname" placeholder="Last Name"><br><br>
+
+
+            <label for="gender">Gender:</label><br>
+            <input type="radio" name="gender" id="m"><span class="gen">Male</span>
+            
+            <input type="radio" name="gender" id="f"><span class="gen">Female</span>
+            
+            <input type="radio" name="gender" id="o"><span class="gen">Others</span>
+            <br><br>
+
+
+            <label for="Dob">D.O.B.: *</label><br>
+            <input type="date" name="date" id="date" required>
+            <br><br>
+
+            <label for="Contact No.">Contact No.: *</label><br>
+            <select name="country_code" id="code">
+                <option value="India">India(+91)</option>
+                <option value="Pakistan">Pakistan(+92)</option>
+                <option value="Afganistan">Afganistan(+93)</option>
+                <option value="Australia">Australia(+61)</option>
+                <option value="United States">United States(+1)</option>
+                <option value="United Kingdom">United Kingdom(+44)</option>
+                <option value="Ukraine">Ukraine(+380)</option>
+                <option value="Belgium">Belgium(+32)</option>
+                <option value="Canada">Canada(+1)</option>
+                <option value="China">China(+86)</option>
+                <option value="Mexico">Mexico(+52)</option>
+            </select>
+            <input type="number" name="ph" id="ph" max="12" required><br><br>
+
+            <label for="Alternate Contact">Alternate Contact: *</label><br>
+            <select name="country_code" id="code">
+                <option value="India">India(+91)</option>
+                <option value="Pakistan">Pakistan(+92)</option>
+                <option value="Afganistan">Afganistan(+93)</option>
+                <option value="Australia">Australia(+61)</option>
+                <option value="United States">United States(+1)</option>
+                <option value="United Kingdom">United Kingdom(+44)</option>
+                <option value="Ukraine">Ukraine(+380)</option>
+                <option value="Belgium">Belgium(+32)</option>
+                <option value="Canada">Canada(+1)</option>
+                <option value="China">China(+86)</option>
+                <option value="Mexico">Mexico(+52)</option>
+            </select>
+            <input type="number" name="ph" id="ph" max="12" required><br><br>
+
+            <label for="email">E-mail: *</label><br>
+            <input type="email" name="email" id="email" placeholder="abc@gmail.com" required><br><br>
+
+            <label for="Nationality">Nationality: *</label><br>
+            <input type="text" name="Nationality" id="Nationality" required><br><br>
+
+            <label for="Address">Address: *</label><br>
+            <textarea name="address" id="addr" cols="30" rows="10"></textarea><br><br>
+
+            <label for="Area">Area: *</label><br>
+            <input type="radio" name="area" id="Rural"><span class="area">Rural</span>
+            <input type="radio" name="area" id="Urban"><span class="area">Urban</span><br><br>
+
+            <label for="State">State: *</label><br>
+            <input type="text" name="state" id="state" required><br><br>
+
+            <label for="District">District: *</label><br>
+            <input type="text" name="district" id="district" required><br><br>
+
+            <label for="Department">Select any Department: *</label><br>
+            <select name="course" id="course" required>
+                <option value="">--Select any Course--</option>
+                <option value="CSE">CSE(Computer Science Engineering)</option>
+                <option value="EE">EE(Electrical Engineering)</option>
+                <option value="ECE">ECE(Electronics & Commnunication Engineering)</option>
+                <option value="CE">Civil(Civil Engineering)</option>
+                <option value="ME">ME(Mechanical Engineering)</option>
+                <option value="Automobile">Automobile(Automobile Engineering)</option>
+            </select><br><br>
+
+            <label for="Catagory">Catagory: *</label><br>
+            <select name="Cast" id="cast">
+                <option value="GEN">GEN</option>
+                <option value="SC/ST">SC/ST</option>
+                <option value="OBC">OBC</option>
+                <option value="EWS">EWS</option>
+                <option value="EBC">EBC</option>
+            </select><br>
+
+            <label for="Education Qualification">Education Qualification: *</label>
+            <input type="text" name="Qualification" id="Qualification" required><br><br>
+
+            <label for="Percentage">Percentage: *</label>
+            <input type="text" name="percentage" id="percentage" required><br><br>
+           
+            <input type="button" value="Reset" id="reset">
+           
+            <input type="button" value="Submit" id="submit">
+            <br>
+        </form>
+    </div>
+    <br>
+       <!--
+           
+        Designed By====> @ggold2315-Abhishek Pandey
+        
+        -->
+</body>
+
+</html>
